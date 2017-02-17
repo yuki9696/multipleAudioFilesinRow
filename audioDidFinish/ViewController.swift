@@ -1,8 +1,4 @@
-//
-//  audioDidFinish
-//
-//  Created by Yuki Yamamoto on 2017/02/12.
-//  Copyright © 2017年 Yuki Yamamoto. All rights reserved.
+
 //
 
 import UIKit

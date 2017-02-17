@@ -1,8 +1,4 @@
-//
-//  AppDelegate.swift
-//  audioDidFinish
-//
-//  Copyright © 2017年 Yuki Yamamoto. All rights reserved.
+
 //
 
 import UIKit
