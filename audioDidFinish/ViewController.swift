@@ -31,7 +31,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     let url3 = Bundle.main.bundleURL.appendingPathComponent("music3.mp3")
 
     
-    @IBOutlet weak var yourButton: customButton!
+    @IBOutlet weak var yourButton1: customButton!
     @IBOutlet weak var yourButton2: customButton!
     @IBOutlet weak var yourButton3: customButton!
     @IBOutlet weak var yourButton4: customButton!
@@ -56,11 +56,11 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
         if (player === player1) {
-            yourButton.isSelected = false
+            yourButton1.isSelected = false
             yourButton2.isSelected = true
             do {
                 //initialise player 2
-                player2 = try AVAudioPlayer(contentsOf:url1)
+                player2 = try AVAudioPlayer(contentsOf: url2)
             }catch {
                 
             }
@@ -71,7 +71,6 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             do {
                 //initialise player 3
                 player3 = try AVAudioPlayer(contentsOf: url3)
-
             }catch {
                 
             }
@@ -89,7 +88,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         do {
             try player1 = AVAudioPlayer(contentsOf:url)
             player1!.play()
-            yourButton.isSelected = true
+            yourButton1.isSelected = true
             player1!.delegate = self
         } catch {
             print(error)
@@ -114,7 +113,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             try player2 = AVAudioPlayer(contentsOf: url2)
             try player1 = AVAudioPlayer(contentsOf: url3)
             player3!.play()
-            yourButton.isSelected = true
+            yourButton1.isSelected = true
             player3!.delegate = self
             player2!.delegate = self
             player1!.delegate = self

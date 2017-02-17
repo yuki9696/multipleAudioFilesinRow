@@ -53,8 +53,8 @@
                                     <action selector="pushButton2WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ve-qf-16l"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="yourbutton1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53Q-7f-kHS">
-                                <rect key="frame" x="142" y="160" width="91" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="yourbutton" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53Q-7f-kHS">
+                                <rect key="frame" x="142" y="160" width="85" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -71,7 +71,7 @@
                                 <rect key="frame" x="123" y="45" width="110" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.9999127984046936" green="1" blue="0.99988144636154175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="yourButton">
+                                <state key="normal" title="yourButton4">
                                     <color key="titleColor" red="0.10991270715138844" green="0.1110009517766497" blue="0.1110009517766497" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -110,7 +110,7 @@
                         <color key="backgroundColor" red="0.97142606973648071" green="0.96798199415206909" blue="0.90412503480911255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="yourButton" destination="Ybk-qX-imP" id="Ph6-Ov-aI4"/>
+                        <outlet property="yourButton1" destination="Ybk-qX-imP" id="xuU-RM-oXc"/>
                         <outlet property="yourButton2" destination="y2I-I2-HtF" id="dOD-dT-4LW"/>
                         <outlet property="yourButton3" destination="6pn-KT-MMu" id="DLi-tC-Ka0"/>
                         <outlet property="yourButton4" destination="wMo-Ta-fHU" id="fwi-kf-eYP"/>
